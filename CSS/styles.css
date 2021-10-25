@@ -20,3 +20,9 @@ h1 {
     margin-right: auto;
     display: block;
 }
+.aboutUs {
+    text-align: center;
+    color: black;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
