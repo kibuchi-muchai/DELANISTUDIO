@@ -10,3 +10,8 @@ h1 {
     text-align: center;
     color: #fff;
 }
+.Dlogo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
