@@ -9,8 +9,27 @@ $("#development").click(function() {
     $("#development-showing").toggle();
     $(".hide-development-image").toggle();
 });
-
 $("#productManagement").click(function() {
     $("#product-management-showing").toggle();
     $(".hide-product-management").toggle();
 });
+
+//insert white box up hover
+$('.Hover').hover(function() {
+    $(this).animate({opacity:'1'});
+},
+function() { 
+    $(this).animate({opacity:'0'})
+},
+$('.submit').click(function() {
+    var Name = $('#mce-FNAME').val();
+    var Email = $('#mce-EMAIL').val();
+    var Message = $('#mce-MESSAGE');
+    var key ='c8fbd9a0cf3958e02be2822e55cfbffc5-us4'
+    if (Name == '' || Email == '' || Message == '') {
+        alert("please make sure you have filledin the form correctly!");
+    } else {
+        alert('Hi' + Name + 'We have feceived your message. Thank you for reaching out to us.');
+    }    
+    })
+);
