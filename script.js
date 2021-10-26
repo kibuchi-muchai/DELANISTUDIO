@@ -1,9 +1,7 @@
 $(document).ready( function() {
     $("#design").click(function () {
         $("#design-showing").toggle();
-        $("#.hide-design-image").toggle();
-    });
-});
+        $(".hide-design-image").toggle();
 
 $("#development").click(function() {
     $("#development-showing").toggle();
@@ -33,3 +31,5 @@ $('.submit').click(function() {
     }    
     })
 );
+})
+});
