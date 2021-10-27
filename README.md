@@ -10,11 +10,11 @@ When the user inputs his or her name,email and message he or she should receive 
 
 
 
-Setup Instructions and Installation Explain steps to clone, install and run the application on a local machine. Development Want to contribute? Great!
-git clone https://kibuchi-muchai.github.io/DELANISTUDIO/
-extract the file
-cd to the delani-studio directory
-open your index.html on your browser
+Setup Instructions and Installation Explain steps to clone, install and run the application on a local machine. Development Want to contribute? Great!<br>
+git clone https://kibuchi-muchai.github.io/DELANISTUDIO/<br>
+extract the file<br>
+cd to the delani-studio directory<br>
+open your index.html on your browser<br>
 
 To fix a bug or enhance an existing module, follow these steps:
 
